@@ -10,8 +10,12 @@
  */
 public class Main {
     public static void main(String args[]) {
-        System.out.println("Hello, Fisciano");
-        System.out.println("Hello, world");
-        System.out.println("Hello, universe");
+        salute("Fisciano");
+        salute("world");
+        salute("universe");
+    }
+    
+    private static void salute(String name) {
+        System.out.println("Hello, "+name);
     }
 }
